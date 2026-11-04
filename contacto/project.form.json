@@ -1,0 +1,115 @@
+{
+  "kind": "colorlib-form-workbench",
+  "version": 1,
+  "id": "p_b3405a9bed0844f0",
+  "wordpressId": "p_b3405a9bed0844f0",
+  "output": "html",
+  "preset": "contact",
+  "title": "Contacto",
+  "description": "Llena el formulario",
+  "submitLabel": "Enviar datos",
+  "timezone": "Europe/Riga",
+  "appearance": {
+    "layout": "panel",
+    "accent": "#5642a8",
+    "font": "system",
+    "spacing": "comfortable",
+    "radius": 12,
+    "width": 600,
+    "direction": "ltr",
+    "framework": "plain"
+  },
+  "delivery": {
+    "mode": "later",
+    "endpoint": ""
+  },
+  "fields": [
+    {
+      "id": "f_0f1b36c42c2e42ce",
+      "type": "text",
+      "label": "Tu nombre",
+      "name": "your_name",
+      "help": "",
+      "placeholder": "",
+      "required": true,
+      "options": [
+        "First option",
+        "Second option"
+      ],
+      "min": "",
+      "max": "",
+      "span": 12,
+      "newRow": false
+    },
+    {
+      "id": "f_9d28da70918544bb",
+      "type": "email",
+      "label": "Correo electronico",
+      "name": "email_address",
+      "help": "",
+      "placeholder": "you@example.com",
+      "required": true,
+      "options": [
+        "First option",
+        "Second option"
+      ],
+      "min": "",
+      "max": "",
+      "span": 12,
+      "newRow": false
+    },
+    {
+      "id": "f_d13df88483cb4c9c",
+      "type": "textarea",
+      "label": "Tu mensaje",
+      "name": "your_message",
+      "help": "",
+      "placeholder": "",
+      "required": true,
+      "options": [
+        "First option",
+        "Second option"
+      ],
+      "min": "",
+      "max": "",
+      "span": 12,
+      "newRow": false
+    },
+    {
+      "id": "f_47f7b76895934fad",
+      "type": "tel",
+      "label": "Celular",
+      "name": "phone",
+      "help": "",
+      "placeholder": "",
+      "required": false,
+      "options": [
+        "First option",
+        "Second option"
+      ],
+      "min": "",
+      "max": "",
+      "span": 12,
+      "newRow": false
+    },
+    {
+      "id": "f_8f1a0ad31b6e4ee6",
+      "type": "checkbox",
+      "label": "marca aqui",
+      "name": "single_checkbox",
+      "help": "",
+      "placeholder": "",
+      "required": false,
+      "options": [
+        "First option",
+        "Second option"
+      ],
+      "min": "",
+      "max": "",
+      "span": 12,
+      "newRow": false
+    }
+  ],
+  "createdAt": "2026-11-04T22:42:19.061Z",
+  "updatedAt": "2026-11-04T22:44:07.536Z"
+}
